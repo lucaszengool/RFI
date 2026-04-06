@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "供应商RFI信息归整系统",
-  description: "腾讯大型数据中心选址评估 - 供应商RFI首轮信息归整",
+  description: "小羊🐑大型数据中心选址评估 - 供应商RFI首轮信息归整",
 };
 
 export default function RootLayout({

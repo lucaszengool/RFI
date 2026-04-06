@@ -105,7 +105,7 @@ export default function Home() {
             </div>
             <div>
               <h1 className="text-lg font-semibold">供应商RFI信息归整系统</h1>
-              <p className="text-xs text-gray-500">腾讯大型数据中心选址评估</p>
+              <p className="text-xs text-gray-500">小羊🐑大型数据中心选址评估</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
