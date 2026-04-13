@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useCallback, useRef } from 'react';
+import Link from 'next/link';
 import { SUMMARY_HEADERS, type SupplierSummary } from '@/lib/extractors';
 
 const EMPTY_SUPPLIER: SupplierSummary = {
@@ -109,6 +110,12 @@ export default function Home() {
             </div>
           </div>
           <div className="flex items-center gap-3">
+            <Link
+              href="/compare"
+              className="text-xs px-3 py-1.5 rounded-lg bg-gray-800 hover:bg-gray-700 text-gray-300 transition-colors"
+            >
+              CSV 对比工具
+            </Link>
             <span className="text-xs text-gray-500">
               已录入 {suppliers.length} 个供应商
             </span>
